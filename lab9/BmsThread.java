@@ -31,7 +31,7 @@ class Thread1 implements Runnable
 	{
 		try
 		{
-			for(int i = 5; i > 0; i--)
+			while(true)
 			{
 				System.out.println(name);
 				Thread.sleep(10000);
@@ -57,7 +57,7 @@ class Thread2 implements Runnable
 	{
 		try
 		{
-			for(int i = 5; i > 0; i--)
+			while(true)
 			{
 				System.out.println(name);
 				Thread.sleep(2000);
